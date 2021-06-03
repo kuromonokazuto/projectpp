@@ -7,13 +7,30 @@
 * Tham Nhu Phong 	BI10-136
 * Nguyen Hoang Yen	BI10-197
 
-### Group members are required to:
-* Fork this repository to your own github account
-* Clone the repository to your local machine (your desktop/laptop)
-* Update your repository regularly to keep it up-to-date with the original repository 
-(view this link to know how: https://medium.com/@topspinj/how-to-git-rebase-into-a-forked-repo-c9f05e821c8a)
-* Write commits with proper content (specify what you have edited, added, deleted, etc.)
-* Make changes to the repository when you have work
-* Once you have finished your work, push it back to the forked repository on your GitHub account
-* Create a pull request by pressing the button "Compare and pull request"
-
+## What it is:
+* A simple Electricity Information Management System with GUI and Databases
+## What it does:
+* Create, read, update, delete datas of:
+    * Households
+    * Areas
+    * Meters
+## How it was created:
+* Packages:
+    * tkinter (for GUI)
+* Modules:
+    * ttk
+    * messagebox
+    * sqlite3 (for Database)
+    * time.strftime
+* Classes:
+    * Households
+    * Areas
+    * Meters
+    * and other classes...
+## Disclaimer:
+This work is based on the following repos: https://github.com/realmacaw/real-mart.
+Changes have been made:
+* Modified classes and background images
+* Modified specific functions' performance, such as adding, updating, DisplayData, etc. with new algorithms.
+* Added suitable validations for input values 
+* Reduce redundancy from the original work (not required in EIMS)
